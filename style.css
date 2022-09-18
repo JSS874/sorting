@@ -1,0 +1,37 @@
+body {
+    /*background: black;*/
+}
+
+.top {
+    padding-top: 2%;
+    text-align: center;
+}
+
+button {
+    height: 40px;
+    background: gray;
+    color: black;
+    border-radius: 50%;
+}
+
+button:hover {
+    background-color: lightgray;
+    transition: 0.5s;
+}
+
+.bottom {
+    text-align: center;
+    position: relative;
+    bottom: -700px;
+}
+
+output {
+    color: white;
+    background: gray;
+    border-radius: 50%;
+}
+
+.slider {
+    background: linear-gradient(to right, #82CFD0 0%, #82CFD0 50%, #fff 50%, #fff 100%);
+
+}
