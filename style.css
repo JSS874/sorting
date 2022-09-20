@@ -19,16 +19,30 @@ button:hover {
     transition: 0.5s;
 }
 
+.display {
+    height: auto;
+    background-color: blue;
+}
+
 .bottom {
-    text-align: center;
-    position: relative;
-    bottom: -700px;
+    position: absolute;
+    top: 90%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    align-content: center;
+    white-space: nowrap;
+    /*bottom: 10%;
+    right: 40%;*/
 }
 
 output {
-    color: white;
-    background: gray;
-    border-radius: 50%;
+    color: blue;
+    font-size: 25px;
+    padding: 10px;
+    align-content: center;
 }
 
 .slider {
