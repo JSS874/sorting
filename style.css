@@ -19,9 +19,22 @@ button:hover {
     transition: 0.5s;
 }
 
+.mid {
+    border: 1px solid black;
+    width: auto;
+    height: 75vh;
+    margin: 0 auto;
+    overflow-wrap: break-word;
+}
+
 .display {
     height: auto;
     background-color: blue;
+    inline-size: 150px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-all;
+    font-size: 100px;
 }
 
 .bottom {

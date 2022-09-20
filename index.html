@@ -9,15 +9,26 @@
 </head>
 <body>
     <div class="top">
-        <button>Bubble Sort</button>
+        <button onclick="bubbleSort(nums)">Bubble Sort</button>
         <button>Merge Sort</button>
+        <button>Insertion Sort</button>
+        <button>Selection Sort</button>
+        <button>Heap Sort</button>
+        <button>Quick Sort</button>
+        <button>Shell Sort</button>
+        <button>Comb Sort</button>
+        <button>Exchange Sort</button>
+        <button>Counting Sort</button>
+        <button>Bucket Sort</button>
+        <button>Raidx Sort</button>
     </div>
     <div class="mid">
+        <canvas id="area" width="200" height="100"></canvas>
         <label id="display">1</label>
     </div>
     <div class="bottom">
-        <input id="size" type="range" class="slider" value="50" min="10" max="100" oninput="setSize(this.value)">
-        <output id="sliderVal">50</output>
+        <input id="size" type="range" class="slider" min="10" max="100" oninput="setSize(this.value)">
+        <output id="sliderVal">Change slider to start</output>
 
     </div>
     <script defer src="index.js"></script>
