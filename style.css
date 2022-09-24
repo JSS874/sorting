@@ -1,10 +1,12 @@
 body {
     /*background: black;*/
+    overflow: hidden;
 }
 
 .top {
     padding-top: 2%;
     text-align: center;
+    height: 10vh;
 }
 
 button {
@@ -20,11 +22,20 @@ button:hover {
 }
 
 .mid {
-    border: 1px solid black;
     width: auto;
     height: 75vh;
     margin: 0 auto;
     overflow-wrap: break-word;
+}
+
+#area {
+    position: absolute;
+    border: 1px solid red;
+    width: 100vw;
+    height: 75vh;
+    top: 12vh;
+    left: 0;
+    padding: 0;
 }
 
 .display {
@@ -39,7 +50,7 @@ button:hover {
 
 .bottom {
     position: absolute;
-    top: 90%;
+    top: 90vh;
     left: 0;
     right: 0;
     margin-left: auto;
