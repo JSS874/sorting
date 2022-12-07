@@ -10,21 +10,21 @@
 <body>
     <div class="top">
         <button onclick="bubbleSort(nums)">Bubble Sort</button>
-        <button>Merge Sort</button>
-        <button>Insertion Sort</button>
-        <button>Selection Sort</button>
-        <button>Heap Sort</button>
-        <button>Quick Sort</button>
-        <button>Shell Sort</button>
-        <button>Comb Sort</button>
-        <button>Exchange Sort</button>
-        <button>Counting Sort</button>
-        <button>Bucket Sort</button>
-        <button>Raidx Sort</button>
+        <button onclick="mergeSortRunner(nums)">Merge Sort</button>
+        <button onclick="insertionSort(nums)">Insertion Sort</button>
+        <button onclick="selectionSort(nums)">Selection Sort</button>
+        <button onclick="heapSort(nums)">Heap Sort</button>
+        <!-- <button>Quick Sort</button> -->
+        <!-- <button>Shell Sort</button> -->
+        <!-- <button>Comb Sort</button> -->
+        <!-- <button>Exchange Sort</button> -->
+        <!-- <button>Counting Sort</button> -->
+        <!-- <button>Bucket Sort</button> -->
+        <!-- <button>Raidx Sort</button> -->
     </div>
     <div class="mid">
         <canvas id="area"></canvas>
-        <label id="display">1</label>
+        <label id="display">Time: 0s</label>
     </div>
     <div class="bottom">
         <input id="size" type="range" class="slider" min="10" max="100" oninput="setSize(this.value)">

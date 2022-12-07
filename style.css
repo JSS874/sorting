@@ -10,14 +10,17 @@ body {
 }
 
 button {
-    height: 40px;
-    background: gray;
-    color: black;
-    border-radius: 50%;
+    height: 60px;
+    font-size: 20px;
+    background: blue;
+    color: white;
+    border-radius: 25%;
+    margin: 20px;
+    padding: 5px;
 }
 
 button:hover {
-    background-color: lightgray;
+    background-color: lightskyblue;
     transition: 0.5s;
 }
 
@@ -30,22 +33,24 @@ button:hover {
 
 #area {
     position: absolute;
-    border: 1px solid red;
     width: 100vw;
     height: 75vh;
     top: 12vh;
     left: 0;
     padding: 0;
+    color: red;
 }
 
 .display {
-    height: auto;
-    background-color: blue;
+    height: 50px;
+    color: blue;
     inline-size: 150px;
     overflow-wrap: break-word;
     word-wrap: break-word;
     word-break: break-all;
-    font-size: 100px;
+    font-size: 20px;
+    text-align: inherit;
+    justify-content: center;
 }
 
 .bottom {
